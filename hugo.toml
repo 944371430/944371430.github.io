@@ -1,0 +1,28 @@
+baseURL = 'https://example.org/'
+locale = 'zh-cn'
+title = "Hongyi's Blog"
+theme = "PaperMod"
+
+[params.profileMode]
+enabled = true
+title = "Hongyi's Blog"
+
+#[[params.profileMode.buttons]]
+#name = "Posts"
+#url = "/posts"
+
+[[params.profileMode.buttons]]
+name = "About Me"
+url = "/about-me"
+
+#[[params.socialIcons]]
+#name = "github"
+#url = "https://github.com/944371430"
+
+[[params.socialIcons]]
+name = "leetcode"
+url = "https://leetcode.cn/u/7oving-albattanifwf/"
+
+[[params.socialIcons]]
+name = "email"
+url = "mailto:944371430@qq.com"
